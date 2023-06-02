@@ -1,0 +1,50 @@
+@media (max-width: 1160px){
+    header, ul{
+        flex-direction: column;
+    }
+    header ul{
+        gap:10px;
+    }
+}
+
+@media (max-width: 990px){
+    .goals-info{
+        width: 100%;
+    }
+}
+
+@media (max-width: 890px){
+    .target{
+        flex-direction: column;
+    }
+    .target-icon-container{
+        border: 0;
+    }
+    .target-icon-container img{
+        display: none;
+    }
+    .target-checkbox-container{
+        width: 100%;
+    }
+}
+
+@media (max-width: 842px){
+    .problem-info{
+        flex-direction: column;
+    }
+    .card-item p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 842px){
+    .goals-info{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:560px){
+    .banner h2{
+        text-align: center;
+    }
+}

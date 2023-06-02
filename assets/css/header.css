@@ -1,0 +1,30 @@
+header{
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    padding: 20px;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+header h3{
+    font-size: 30px;
+    color: black;
+}
+
+header ul{
+    text-decoration: none;
+    list-style: none;
+    gap: 30px;
+}
+
+header a{
+    color: var(--color-negative);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+header a:hover{
+    color: aliceblue;
+}
+
