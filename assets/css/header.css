@@ -21,7 +21,7 @@ header ul{
 header a{
     color: var(--color-negative);
     text-decoration: none;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 header a:hover{

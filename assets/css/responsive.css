@@ -30,7 +30,15 @@
 
 @media (max-width: 842px){
     .problem-info{
+        width: 100%;
+        gap: 5px;
+        padding: 15px;
         flex-direction: column;
+    }
+
+    .problem-info p{
+        width: 100%;
+        text-align: justify;
     }
     .card-item p{
         font-size: 16px;
@@ -40,6 +48,32 @@
 @media (max-width: 842px){
     .goals-info{
         flex-direction: column;
+    }
+}
+
+@media (max-width:640px){
+    .app{
+        flex-direction: column;
+    }
+
+    .app img{
+        width: 100%;
+    }
+
+    .app-text{
+        width: 100%;
+    }
+
+    .card-item{
+        width: 40%;
+    }
+
+    .benefit{
+        flex-wrap: wrap;
+    }
+
+    .benefit-item{
+        width: 100%;
     }
 }
 

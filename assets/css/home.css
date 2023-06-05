@@ -5,7 +5,7 @@ section.banner{
     background-attachment: fixed;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)),
-    url(../img/background\ home.jpg);
+    url(../img/bg/background-home.jpg);
 }
 
 .up {
@@ -62,7 +62,6 @@ section.problem{
 
 .goals p{
     max-width: 700px;
-    font-size: 18px;
     text-align: justify;
 }
 
@@ -86,11 +85,11 @@ section.problem{
 }
 
 .target-icon-container img{
-    width: 50%;
+    width: 40%;
 }
 
 .target h2{
-    color: var(--color-zero);
+    color: var(--color-negative);
 }
 
 .target p{
@@ -181,7 +180,7 @@ section.problem{
 .app{
     margin: 0 auto;
     width: 95%;
-    height: 60vh;
+    min-height: 60vh;
     margin-top: 25px;
     background-color: var(--color-second);
     flex-direction: row-reverse;
@@ -190,6 +189,8 @@ section.problem{
 .app-text{
     width: 40%;
     padding: 15px;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .app img{
@@ -198,12 +199,12 @@ section.problem{
 }
 
 .app-text h2{
-    font-size: 28px;
+
     color: var(--color-zero);
 }
 
 .app-text p{
-    font-size: 18pxs;
+    max-width: 400px;
     color: var(--color-zero);
 }
 
@@ -217,10 +218,12 @@ section.problem{
     width: 25%;
     height: 600px;
     border-radius: 110px;
-    border: 1px solid;
+    padding: 5px;
+    text-align: center;
     background-size: cover;
     background-position: center;
-    text-align: center;
+    transition: 0.2s linear;
+    cursor: pointer;
 }
 
 .benefit p{
@@ -233,17 +236,17 @@ section.problem{
 
 .benefit-tech{
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)),
-    url(../img/primeiro\ benefico.jpg);
+    url(../img/bg/primeiro-benefico.jpg);
 }
 
 .benefit-mobile{
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)),
-    url(../img/segundo\ beneficio.jpg);
+    url(../img/bg/segundo-beneficio.jpg);
 }
 
 .benefit-money{
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)),
-    url(../img/terceiro\ beneficio.jpg);
+    url(../img/bg/terceiro-beneficio.jpg);
 }
 
 .day-by-day{
@@ -253,7 +256,7 @@ section.problem{
     background-size: cover;
     background-position: center;
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)),
-    url(../img/DiaADia\ bg.jpg);
+    url(../img/bg/DiaADia-bg.jpg);
 }
 
 .day-by-day-text h2{
@@ -265,6 +268,7 @@ section.problem{
     max-width: 1000px;
     color: var(--color-zero);
     text-align: center;
+    margin-top: 20px;
 }
 
 
